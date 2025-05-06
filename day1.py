@@ -1,6 +1,0 @@
-print("Hello_ World")
-
-    
-        
-        
-
