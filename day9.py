@@ -15,6 +15,7 @@ def PrintArray(arr):
     for item in arr:
         print(item, end=' ')
     print()  # New line at the end
+# PrintArray(DataArray)
 
 # ----------- 1(c): Function LinearSearch() -----------
 def LinearSearch(arr, search_value):
@@ -27,8 +28,9 @@ def LinearSearch(arr, search_value):
 # ----------- 1(b)(ii): Output contents of DataArray -----------
 print("Contents of DataArray:")
 PrintArray(DataArray)
+# print(LinearSearch(DataArray,12))
 
-# ----------- 1(d)(i): User input, validation, search, output -----------
+# # ----------- 1(d)(i): User input, validation, search, output -----------
 while True:
     try:
         user_input = int(input("Enter a whole number between 0 and 100: "))
@@ -43,4 +45,4 @@ while True:
 occurrences = LinearSearch(DataArray, user_input)
 print(f"The number {user_input} is found {occurrences} times.")
 
-# ----------- END OF PROGRAM -----------
+# # ----------- END OF PROGRAM -----------

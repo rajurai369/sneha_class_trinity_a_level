@@ -36,6 +36,9 @@ def BubbleSort():
             if DataStored[j] > DataStored[j + 1]:
                 DataStored[j], DataStored[j + 1] = DataStored[j + 1], DataStored[j]
 
+Initialise()
+BubbleSort()
+
 # Part (e)(i): BinarySearch function
 def BinarySearch(DataToFind):
     global DataStored, NumberItems
